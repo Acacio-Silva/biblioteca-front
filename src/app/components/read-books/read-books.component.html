@@ -1,0 +1,8 @@
+
+<div>
+    <h1>Livros que você já leu até agora!</h1>
+    <div *ngFor="let book of user.books" class="content">
+        <span>Titulo do Livro: </span><p>{{book.title}}</p>
+        <span>Numero de paginas: </span><p>{{book.numberPages}}</p>
+    </div>
+</div>

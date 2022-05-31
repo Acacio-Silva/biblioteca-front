@@ -1,0 +1,5 @@
+<form class="login" *ngIf="visible">
+    <input type="text" placeholder="Digite seu Usuario" [(ngModel)]="userLogin.username" name="name">
+    <input type="password" placeholder="Digite sua senha" [(ngModel)]="userLogin.password" name="password">
+    <input type="button" value="Entrar" (click)="signin()">
+</form>

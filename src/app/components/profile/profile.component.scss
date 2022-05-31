@@ -1,0 +1,35 @@
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    span{
+        font-weight: bold;
+        font-size: 25px;
+    }
+
+    p{
+        padding: 5px 2px;
+        font-size: 25px;
+        margin: 5px;
+    }
+
+}
+
+.trophy{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 250px;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #000;
+    
+
+    .space{
+        margin-bottom: 10px;
+    }
+    
+
+}

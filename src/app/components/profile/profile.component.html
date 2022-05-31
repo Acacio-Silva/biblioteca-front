@@ -1,0 +1,18 @@
+<div class="content">
+    <span>Olá: </span><p>"{{user.name}}"</p>
+    <span>Sua Pontuação até Agora é:</span> <p>"{{user.points}} Pontos"</p>
+</div>
+
+<div class="trophy" *ngIf="trofeus">
+            <h3 class="space">Seus Trofeus</h3>
+    <div *ngIf="leitorTI" class="space">
+        {{leitorTI}}
+    </div>
+    <div *ngIf="leitorFC" class="space">
+        {{leitorFC}}
+    </div>
+    <div *ngIf="leitorMU" class="space">
+        {{leitorMU}}
+    </div>
+
+</div>

@@ -1,0 +1,7 @@
+<div *ngFor="let book of books">
+    <div class="main"><span>Titulo:</span><p>{{book.title}}</p>
+        <span>Páginas:</span><p>{{book.numberPages}}</p> ==>
+        <input type="button" value="Marcar Como Lido" (click)="addBook(book.id)">
+        <a routerLink="/book/{{book.id}}">Ver Livro</a>
+</div>
+
